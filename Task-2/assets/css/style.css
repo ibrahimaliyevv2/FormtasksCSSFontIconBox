@@ -1,0 +1,18 @@
+.bar{
+
+}
+
+.bar ul{
+
+}
+
+.bar ul li{
+    display: inline-block;
+
+}
+
+.bar ul li::after{
+    content: "";
+    width: 2px;
+    height: 100%;
+}
